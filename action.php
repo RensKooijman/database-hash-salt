@@ -3,7 +3,7 @@ session_start();
 
 $host = "localhost";
 $dbusernamer = "root";
-$dbpassword = "penis";
+$dbpassword = "root";
 $dbname = "hashing";
 
 $mysqli = new mysqli($host, $dbusernamer, $dbpassword, $dbname);
